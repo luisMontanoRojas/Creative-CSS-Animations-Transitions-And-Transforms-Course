@@ -5,11 +5,17 @@ button {
     color: white;
     border: none;
     background-color: blue;
-    transition-property: background-color;
-    transition-duration: 1s;
-    transition-delay: 2s;
+    /* propiedades en la que se usara la transicion */
+    /* transition-property: background-color color width;  se puede poner asi especificando cada una en un maxiomo de 5 o 6*/
+    /* transition-property: all;  se puede poner asi especificando todas*/
+    /* transition-property: all;
+    transition-duration: 1s; */
+    /* otra manera */
+    transition: all 3s ease-in 2s;
 }
 
 button:hover {
     background-color: green;
+    color: black;
+    border-radius: 50%;
 }

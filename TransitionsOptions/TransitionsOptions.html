@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CSS animation, transitions and transforms</title>
+
+    <!-- OUR STYLESHEET -->
+    <link rel="stylesheet" href="TransitionsOptions.css" type="text/css" media="all">
+
+</head>
+
+<body>
+    <div class="container">
+        <!-- is like ease-in-out, except it starts slightly faster than it ends -->
+        <div id="ease" class="move">Ease (Default)</div>
+        <!-- start and end with the same speed -->
+        <div id="linear" class="move">Linear</div>
+        <!-- start slowly and faster in the end, return slow and faster in the end-->
+        <div id="ease-in" class="move">Ease-In</div>
+        <!-- start faster and slowly in the end, return fast and slow in the end-->
+        <div id="ease-out" class="move">Ease-Out</div>
+        <!-- start slow then faster and in the end slow, return slow faster and slow -->
+        <div id="ease-in-out" class="move">Ease-In-Out</div>
+    </div>
+</body>
+
+</html>

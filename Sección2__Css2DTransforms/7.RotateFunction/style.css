@@ -1,0 +1,12 @@
+img {
+    width: 300px;
+    display: block;
+    margin: auto;
+    margin-top: 200px;
+    transition: transform 1.5s;
+}
+
+img:hover {
+    /* transform: rotate(180deg); */
+    transform: rotate(1turn);
+}

@@ -1,0 +1,15 @@
+div {
+    perspective: 1000px;
+}
+
+img {
+    width: 300px;
+    display: block;
+    margin: auto;
+    margin-top: 200px;
+    transition: transform 1.5s;
+}
+
+img:hover {
+    transform: rotateY(450deg);
+}
